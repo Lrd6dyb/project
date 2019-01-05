@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/hero_skill.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/ahri.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="headbg">
+            <img class="bgimg" src="../img/0.jpg" alt="">
+            <!--折叠导航-->
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+              <a href="javascript:;" class="navbar-brand" title="游戏资料">
+                <img src="../img/logo.png" alt="" title="英雄联盟"/>
+              </a>
+              <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#content">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- 导航栏菜单项，大屏幕平铺，小屏幕隐藏-->
+              <div id="content" class="collapse navbar-collapse">
+                <ul class="navbar-nav d-flex justify-content-around">
+                  <li class="nav-item">
+                    <a href="javascript:;" class="nav-link" title="商城/合作">
+                      <span class="head-nav-title">游戏资料</span>
+                      <span class="head-nav-subtitle">GAME INFO</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javascript:;" class="nav-link" title="商城/合作">
+                      <span class="head-nav-title">商城/合作</span>
+                      <span class="head-nav-subtitle">STORE</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javascript:;" class="nav-link" title="社区互动">
+                      <span class="head-nav-title">社区互动</span>
+                      <span class="head-nav-subtitle">COMMUNITY</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javascript:;" class="nav-link" title="LPL赛事官网">
+                      <span class="head-nav-title">赛事官网</span>
+                      <span class="head-nav-subtitle">ESPORTS</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javascript:;" class="nav-link" title="自助系统">
+                      <span class="head-nav-title">自助系统</span>
+                      <span class="head-nav-subtitle">SYSTEM</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+      <!--面包屑导航-->
+      <div>
+        <ul class="breadcrumb">
+          <!--<li class="breadcrumb-item "><a href="hero_list.html" class="p-1">游戏资料</a></li>
+          <li class="breadcrumb-item "><a href="hero_list.html" class="p-1">英雄</a></li>
+          <li class="breadcrumb-item "><a href="Ahri.html" class="p-1">九尾妖狐 阿狸</a></li>-->
+        </ul>
+      </div>
+      <!--轮播-->
+      <div id="demo" class="carousel" data-ride="carousel">
+        <div class="carousel-inner">
+          <!--<div class="carousel-item active">
+            <img  class="w-100" src="../img/hero_skill/big103000.jpg"/>
+          </div>
+          <div  class="carousel-item">
+            <img  class="w-100" src="../img/hero_skill/big103001.jpg"/>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100 d-flex justify-content-sm-around" src="../img/hero_skill/big103002.jpg"/>
+
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="../img/hero_skill/big103003.jpg"/>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="../img/hero_skill/big103004.jpg"/>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="../img/hero_skill/big103006.jpg"/>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="../img/hero_skill/big103007.jpg"/>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="../img/hero_skill/big103014.jpg"/>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="../img/hero_skill/big103015.jpg"/>
+          </div>-->
+        </div>
+        <!-- 导航标识符-->
+          
+        <ul class="carousel-indicators ">
+          <li class="active " data-target="#demo" data-slide-to="0">
+          </li>
+          <li class="" data-target="#demo" data-slide-to="1"></li>
+          <li class="" data-target="#demo" data-slide-to="2"></li>
+          <li class="" data-target="#demo" data-slide-to="3"></li>
+          <li class="" data-target="#demo" data-slide-to="4"></li>
+          <li class="" data-target="#demo" data-slide-to="5"></li>
+        </ul>
+        <a href="#demo" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#demo" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      <!-- 背景故事 -->
+      <div class="jumbotron mt-5" >
+        <!--<h4>背景故事</h4>
+        <span>
+          &nbsp;&nbsp;&nbsp;&nbsp;符文之地的潜在力量和她有着与生俱来的共鸣。原始的魔法在她手中凝为魔法宝珠。瓦斯塔亚人阿狸醉心于玩弄猎物的情感，然后吞噬他们的生命精魄。虽然阿狸是天生的掠食者，但她却对猎物始终保存着一份同情，因为每一个被吞噬的灵魂，都伴随着他们生前的记忆。
+        </span>-->
+      </div>
+      <!-- hero技能 -->
+      <div class="hero_skill pt-5 pb-5">
+        <!--<h4 class="mb-5">英雄技能</h4>
+        <ul class="nav nav-tabs">
+          <li class="nav-item active">
+            <a class="nav-link " href="#tab1" data-toggle="tab"> 
+              <img src="../img/hero_skill/Ahri_SoulEater2.png" alt="">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tab2" data-toggle="tab">
+              <img src="../img/hero_skill/AhriOrbofDeception.png" alt="">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tab3" data-toggle="tab">
+              <img src="../img/hero_skill/AhriFoxFire.png" alt="">
+            </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#tab4" data-toggle="tab">
+                  <img src="../img/hero_skill/AhriSeduce.png" alt="">
+              </a> 
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tab5" data-toggle="tab">
+                <img src="../img/hero_skill/AhriTumble.png" alt="">
+            </a> 
+          </li>
+        </ul>
+            
+        <div class="tab-content">
+          <div class="tab-pane active" id="tab1">
+            <span>
+              瓦斯塔亚的优雅  被动技能
+            </span>
+            <span>
+              每当阿狸在短时间内对一个英雄造成了2次技能命中，她就会暂时获得移动速度加成。
+            </span>
+          </div>
+          <div class="tab-pane" id="tab2">
+            <span>
+              欺诈宝珠  快捷键：Q
+            </span>
+            <span>
+              阿狸放出宝珠，造成魔法伤害，随后将其收回，造成真实伤害。
+            </span>
+          </div>
+          <div class="tab-pane" id="tab3">
+            <span>
+              妖异狐火  快捷键：W
+            </span>
+            <span>
+              阿狸放出数团狐火去寻找附近的敌人，并造成魔法伤害。
+
+              在命中同一目标时，每个额外的狐火会造成30%的伤害，最多对同一目标造成伤害。
+              
+              狐火优先以近期被【魅惑妖术】命中过的英雄为目标，其次是被阿狸近期攻击过的敌人。
+              如果狐火无法找到一个优先的目标，那么它会尽可能地在附近敌人中选取英雄为目标。
+            </span>
+          </div>
+          <div class="tab-pane" id="tab4">
+            <span>
+              魅惑妖术
+              快捷键：E
+            </span>
+            <span>
+              阿狸献出红唇热吻，对命中的第一个敌人造成魔法伤害并将目标魅惑，让目标意乱情迷地走向阿狸。魅惑效果持续秒。被【魅惑妖术】命中的敌人还会进入持续5秒的易损状态，所受的来自阿狸技能的伤害会提高20%。
+            </span>
+          </div>
+          <div class="tab-pane" id="tab5">
+            <span>
+              灵魄突袭  快捷键：R   
+            </span>
+            <span>
+              阿狸像妖魅一般向前冲锋，并向周围的3名敌人（英雄优先）发射元气弹，造成魔法伤害。灵魄突袭可以在进入冷却阶段前的10秒内被施放最多3次。
+            </span>          
+          </div>
+        </div>-->
+      </div>
+      <!-- 使用技巧 -->
+      <div class="using_skill mt-5">
+       <!--  <h4 class="mb-5">使用技巧</h4>
+        <h4 class="mb-3">当你使用九尾妖狐</h4>
+        <span>
+          - 用【魅惑妖术】来启动你的连招，它将会使【欺诈宝珠】和【妖异狐火】更容易命中敌人。
+        </span>
+        <span>
+          - 在团战中用魅惑妖术先手，并用【灵魄突袭】追击落单的敌人。
+        </span>
+        <span>
+          - 【灵魄突袭】能够为阿狸的其它技能创造机会，它可以为【魅惑妖术】清出一条路，有助于让【欺诈宝珠】来回命中敌人两次，并且突进到敌人身边可以让【妖异狐火】更易选中目标。 
+        </span>
+        <h4 class="mt-5 mb-3">敌人使用九尾妖狐</h4>
+        <span>
+          - 在大招【灵魄突袭】进入冷却阶段后，阿狸的生存能力可谓低得令人发指。
+        </span>
+        <span>
+          - 呆在小兵后面，来让【魅惑妖术】难以命中，能够显著地降低阿狸潜在的爆发伤害。
+        </span>-->
+      </div>
+      <!--foot-->
+      <div class="foot mt-5 mb-5">
+        <div id="s1">
+          <img src="../img/logo.png"/>
+          <span>
+            私人设定请勿模仿
+          </span>
+        </div>
+        <div id="s2">
+          <img src="../img/logo.png"/>
+          <span>
+            英雄信息仅供参考
+          </span>
+        </div>
+        <div class="row m-3 p-1 text-center">
+          <div class=" col-lg-7 col-md-12 col-sm-12 mt-3 p-1" id="my_ul">
+            <div class="row foot_row" >
+              <div class="col-2 p-0 m-0">
+                <a href="#" class="text-muted text-center ">关于我们</a>
+              </div>
+              <div class="col-1 p-0  m-0">
+                  <b class="my_gray m-0 p-0 text-center">|</b>
+                </div>
+                <div class="col-2 p-0 m-0">
+                  <a href="#" class="text-muted text-center">招聘信息</a>
+                </div>
+                <div class="col-1 p-0 m-0">
+                  <b class="my_gray m-0 p-0 text-center">|</b>
+                </div>
+                <div class="col-2 p-0 m-0">
+                    <a href="#" class="text-muted text-center">商务合作</a>
+                </div>
+                <div class="col-1 p-0 m-0">
+                  <b class="my_gray m-0 p-0 text-center">|</b>
+                </div>
+                <div class="col-2 p-0 m-0">
+                  <a href="#" class="text-muted text-center">投诉建议</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 foot_row   col-md-12  mt-3 p-1">
+              <div class="foot_text ">
+                <span>英雄联盟英雄资料私人设定</span>
+                <span>打造完美了解英雄各种信息</span>
+              </div>
+              <img src="../img/logo.png" alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/hero_skill.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/alistar.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="headbg">
+            <img class="bgimg" src="../img/0.jpg" alt="">
+            <!--折叠导航-->
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+              <a href="javascript:;" class="navbar-brand" title="游戏资料">
+                <img src="../img/logo.png" alt="" title="英雄联盟"/>
+              </a>
+              <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#content">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- 导航栏菜单项，大屏幕平铺，小屏幕隐藏-->
+              <div id="content" class="collapse navbar-collapse">
+                <ul class="navbar-nav d-flex justify-content-around">
+                  <li class="nav-item">
+                    <a href="javascript:;" class="nav-link" title="商城/合作">
+                      <span class="head-nav-title">游戏资料</span>
+                      <span class="head-nav-subtitle">GAME INFO</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javascript:;" class="nav-link" title="商城/合作">
+                      <span class="head-nav-title">商城/合作</span>
+                      <span class="head-nav-subtitle">STORE</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javascript:;" class="nav-link" title="社区互动">
+                      <span class="head-nav-title">社区互动</span>
+                      <span class="head-nav-subtitle">COMMUNITY</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javascript:;" class="nav-link" title="LPL赛事官网">
+                      <span class="head-nav-title">赛事官网</span>
+                      <span class="head-nav-subtitle">ESPORTS</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javascript:;" class="nav-link" title="自助系统">
+                      <span class="head-nav-title">自助系统</span>
+                      <span class="head-nav-subtitle">SYSTEM</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+      <!--面包屑导航-->
+      <div>
+        <ul class="breadcrumb">
+          <!--<li class="breadcrumb-item "><a href="javascript:;" class="p-1">游戏资料</a></li>
+          <li class="breadcrumb-item "><a href="hero_list.html" class="p-1">英雄</a></li>
+          <li class="breadcrumb-item "><a href="Alistar.html" class="p-1">牛头酋长 阿利斯塔</a></li>-->
+        </ul>
+      </div>
+      <!--轮播-->
+      <div id="demo" class="carousel" data-ride="carousel">
+        <div class="carousel-inner">
+          <!--<div class="carousel-item active">
+            <img  class="w-100" src="../img/hero_skill/big12000.jpg"/>
+            
+          </div>
+          <div  class="carousel-item">
+            <img  class="w-100" src="../img/hero_skill/big12001.jpg"/>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="../img/hero_skill/big12002.jpg"/>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="../img/hero_skill/big12003.jpg"/>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="../img/hero_skill/big12004.jpg"/>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="../img/hero_skill/big12005.jpg"/>
+            </div>
+          <div class="carousel-item">
+            <img class="w-100" src="../img/hero_skill/big12006.jpg"/>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="../img/hero_skill/big12007.jpg"/>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="../img/hero_skill/big12008.jpg"/>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="../img/hero_skill/big12009.jpg"/>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="../img/hero_skill/big12010.jpg"/>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="../img/hero_skill/big12019.jpg"/>
+          </div>  -->
+        </div>
+        <!-- 导航标识符-->
+        <ul class="carousel-indicators ">
+          <li class="active " data-target="#demo" data-slide-to="0">
+          </li>
+          <li class="" data-target="#demo" data-slide-to="1"></li>
+          <li class="" data-target="#demo" data-slide-to="2"></li>
+          <li class="" data-target="#demo" data-slide-to="3"></li>
+      
+        </ul>
+        <a href="#demo" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#demo" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      <!-- 背景故事 -->
+      <div class="jumbotron mt-5" >
+        <!--<h4>背景故事</h4>
+        <span>
+          &nbsp;&nbsp;&nbsp;&nbsp;阿利斯塔一直都是威名远扬的巨力勇士，他要为自己被屠杀的氏族向诺克萨斯帝国复仇。虽然他曾被奴役，并被迫成为斗兽场中的角斗士，但他坚不可摧的意志使他免于沦为真正的野兽。现在，挣脱了奴役枷锁的他继续以受苦之人和弱者的名义战斗。他的愤怒，还有犄角、蹄子和拳头，都是他的武器。
+        </span> -->
+      </div>
+      <!-- hero技能 -->
+      <div class="hero_skill pt-5 pb-5">
+        <!--<h4 class="mb-5">英雄技能</h4>
+        <ul class="nav nav-tabs">
+          <li class="nav-item active">
+            <a class="nav-link " href="#tab1" data-toggle="tab"> 
+              <img src="../img/hero_skill/AlistarE.png" alt="">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tab2" data-toggle="tab">
+              <img src="../img/hero_skill/Pulverize.png" alt="">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tab3" data-toggle="tab">
+              <img src="../img/hero_skill/Headbutt.png" alt="">
+            </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#tab4" data-toggle="tab">
+                <img src="../img/hero_skill/Alistar_E.png" alt="">
+              </a> 
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tab5" data-toggle="tab">
+                <img src="../img/hero_skill/FerociousHowl.png" alt="">
+            </a> 
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="tab1">
+            <span>  
+              凯旋怒吼  被动技能
+            </span>
+            <span>
+              在阿利斯塔晕眩或强制位移敌方英雄，或是在附近敌人死亡时，他会为他的怒吼积攒充能。当完全充能时，他会治疗自身和附近的所有友方英雄。
+            </span>
+          </div>
+          <div class="tab-pane" id="tab2">
+            <span>
+              大地粉碎  快捷键：Q 
+            </span>
+            <span>
+              阿利斯塔锤击地面，对附近的敌人造成魔法伤害并将其震至空中1秒。 
+            </span>
+          </div>
+          <div class="tab-pane" id="tab3">
+            <span>
+              野蛮冲撞  快捷键：W 
+            </span>
+            <span>
+              阿利斯塔顶向一名敌人，造成魔法伤害，并击退目标。
+            </span>
+          </div>
+          <div class="tab-pane" id="tab4">
+            <span>
+              践踏  快捷键：E   
+            </span>
+            <span>
+              阿利斯塔践踏地面，无视单位碰撞体积，并在5秒里持续对附近的敌人造成(+)魔法伤害。每段践踏在至少伤害到一名敌方英雄时会为阿利斯塔提供一层践踏效果。在5层践踏效果时，阿利斯塔会强化他的下次对敌方英雄发起的普攻，以造成额外的魔法伤害和1秒的晕眩效果。
+            </span>
+          </div>
+          <div class="tab-pane" id="tab5">
+            <span>
+                坚定意志  快捷键：R    
+            </span>
+            <span>
+              阿利斯塔移除身上的所有控制效果。在接下来的7秒里，阿利斯塔受到的物理和魔法伤害减少。      
+            </span>          
+          </div>
+        </div>-->
+      </div>
+      <!-- 使用技巧 -->
+      <div class="using_skill mt-5">
+        <!--<h4 class="mb-5">使用技巧</h4>
+        <h4 class="mb-3">当你使用牛头酋长</h4>
+        <span>
+          - 使用大地粉碎可以让你在更好的位置施放野蛮冲撞。
+        </span>
+        <span>
+          - 移动速度对于阿利斯塔非常重要，因此买鞋时要慎重考虑。
+        </span>
+        <span>
+          - 使用闪现可以让你抓住毫无防备的目标，继而用大地粉碎与野蛮冲撞将他们撞回你的友军中。
+        </span>
+        <h4 class="mt-5 mb-3">敌人使用牛头酋长</h4>
+        <span>
+          - 阿利斯塔具有很强的破坏力也很结实，尝试着攻击更脆弱的输出型英雄才是更好的选择。
+        </span>
+        <span>
+          - 在敌方防御塔附近时要小心大地粉碎和野蛮冲撞的连击。
+        </span>
+        <span>
+          - 当阿利斯塔使用大招时，你可以后退并等到效果消逝后，再对其进行攻击。
+        </span>-->
+      </div>
+      <!--foot-->
+      <div class="foot mt-5 mb-5">
+        <div id="s1">
+          <img src="../img/logo.png"/>
+          <span>
+            私人设定请勿模仿
+          </span>
+        </div>
+        <div id="s2">
+          <img src="../img/logo.png"/>
+          <span>
+            英雄信息仅供参考
+          </span>
+        </div>               
+        <div class="row m-3 p-1 text-center">
+          <div class=" col-lg-7 col-md-12 col-sm-12 mt-3 p-1" id="my_ul">
+            <div class="row foot_row" >
+              <div class="col-2 p-0 m-0">
+                <a href="#" class="text-muted text-center ">关于我们</a>
+              </div>
+              <div class="col-1 p-0  m-0">
+                  <b class="my_gray m-0 p-0 text-center">|</b>
+                </div>
+                <div class="col-2 p-0 m-0">
+                  <a href="#" class="text-muted text-center">招聘信息</a>
+                </div>
+                <div class="col-1 p-0 m-0">
+                  <b class="my_gray m-0 p-0 text-center">|</b>
+                </div>
+                <div class="col-2 p-0 m-0">
+                    <a href="#" class="text-muted text-center">商务合作</a>
+                </div>
+                <div class="col-1 p-0 m-0">
+                  <b class="my_gray m-0 p-0 text-center">|</b>
+                </div>
+                <div class="col-2 p-0 m-0">
+                  <a href="#" class="text-muted text-center">投诉建议</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 foot_row   col-md-12  mt-3 p-1">
+              <div class="foot_text ">
+                <span>英雄联盟英雄资料私人设定</span>
+                <span>打造完美了解英雄各种信息</span>
+              </div>
+              <img src="../img/logo.png" alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

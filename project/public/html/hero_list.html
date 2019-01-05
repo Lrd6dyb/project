@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <link rel="stylesheet" href="../css/header.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/index.js"></script>
+  </head>
+  <body>
+    <div class="container ">
+        <div class="headbg">
+            <img class="bgimg" src="http://127.0.0.1:4500/0.jpg" alt="">
+            <!--折叠导航-->
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+              <a href="home.html" class="navbar-brand" title="首页">
+                <img src="http://127.0.0.1:4500/logo.png" alt="" title="英雄联盟"/>
+              </a>
+              <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#content">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- 导航栏菜单项，大屏幕平铺，小屏幕隐藏-->
+              <div id="content" class="collapse navbar-collapse">
+                <ul class="navbar-nav d-flex justify-content-around">
+                  <li class="nav-item">
+                    <a href="hero_list.html" class="nav-link" title="游戏资料">
+                      <span class="head-nav-title">游戏资料</span>
+                      <span class="head-nav-subtitle">GAME INFO</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="hero_list.html" class="nav-link" title="商城/合作">
+                      <span class="head-nav-title">商城/合作</span>
+                      <span class="head-nav-subtitle">STORE</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="hero_list.html" class="nav-link" title="社区互动">
+                      <span class="head-nav-title">社区互动</span>
+                      <span class="head-nav-subtitle">COMMUNITY</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="hero_list.html" class="nav-link" title="LPL赛事官网">
+                      <span class="head-nav-title">赛事官网</span>
+                      <span class="head-nav-subtitle">ESPORTS</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="hero_list.html" class="nav-link" title="自助系统">
+                      <span class="head-nav-title">自助系统</span>
+                      <span class="head-nav-subtitle">SYSTEM</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+      <!--面包屑导航-->
+      <div >
+        <ul class="breadcrumb  m-4" >
+          <li class="breadcrumb-item "><a href="hero_list.html" class="p-1">游戏资料</a></li>
+           <li class="breadcrumb-item "><a href="hero_list.html" class="p-1">英雄</a></li> 
+        </ul>
+      </div>
+      <!--动态选项卡-->
+      <div class="">
+        <ul class="nav nav-tabs">
+          <li class="nav-item active">
+            <a class="nav-link p-2 active " href="#tab1" data-toggle="tab">英雄</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 " href="#tab2" data-toggle="tab">召唤师技能</a>
+          </li>
+        </ul>
+      
+        <div class="tab-content">
+          <div class="tab-pane active" id="tab1">
+            <!--单选按钮-->
+            <div class="all_radio">
+              <input type="radio" name="super" id="all" value="all" checked click="all_hero()"><label for="all">全部</label>
+              <input type="radio" name="super" id="ck"  value="ck"><label for="ck">刺客</label>
+              <input type="radio" name="super" id="zs"  value="zs"><label for="zs">战士</label>
+              <input type="radio" name="super" id="fs"  value="fs"><label for="fs">法师</label>
+              <input type="radio" name="super" id="ss"  value="ss"><label for="ss">射手</label>
+            </div>
+            <!--英雄列表-->
+            <div  class="hero_list">
+              <div id="testzzl" class="row">
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane" id="tab2">
+            <div class="row">
+              
+            </div>
+          </div>
+        </div>
+      </div>      
+      <!--foot-->
+      <div class="foot mt-5 mb-5">
+          <div id="s1">
+              <a href="home.html">
+                <img src="../img/logo.png"/>
+              </a>
+              <span>
+                私人设定请勿模仿
+              </span>
+            </div>
+            <div id="s2">
+              <a href="home.html">
+                <img src="../img/logo.png"/>
+              </a>
+              <span>
+                英雄信息仅供参考
+              </span>
+            </div>
+        <div class="row m-3 p-1 text-center">
+          <div class=" col-lg-7 col-md-12 col-sm-12 mt-3 p-1" id="my_ul">
+            <div class="row foot_row" >
+              <div class="col-2 p-0 m-0">
+                <a href="#" class="text-muted text-center ">关于我们</a>
+              </div>
+              <div class="col-1 p-0  m-0">
+                <b class="my_gray m-0 p-0 text-center">|</b>
+              </div>
+              <div class="col-2 p-0 m-0">
+                <a href="#" class="text-muted text-center">招聘信息</a>
+              </div>
+              <div class="col-1 p-0 m-0">
+                <b class="my_gray m-0 p-0 text-center">|</b>
+              </div>
+              <div class="col-2 p-0 m-0">
+                <a href="#" class="text-muted text-center">商务合作</a>
+              </div>
+              <div class="col-1 p-0 m-0">
+                <b class="my_gray m-0 p-0 text-center">|</b>
+              </div>
+              <div class="col-2 p-0 m-0">
+                <a href="#" class="text-muted text-center">投诉建议</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 foot_row   col-md-12  mt-3 p-1">
+            <div class="foot_text ">
+              <span>英雄联盟英雄资料私人设定</span>
+              <span>打造完美了解英雄各种信息</span>
+            </div>
+            <img src="../img/logo.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>  
+  </body>
+</html>
